@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="numero1">Número 1: </label>
+    <input type="text" id="idNumero1" name="idNumero1"><br><br>
+
+    <label for="numero2">Número 2: </label>
+    <input type="text" id="idNumero2" name="idNumero2"><br><br>
+
+    <label for="operacao">Operação: </label>
+    <select name="operacao" id="operacao">
+        <option value=""></option>
+        <option value="*">Multiplicar</option>
+        <option value="/">Dividir</option>
+        <option value="+">Somar</option>
+        <option value="-">Subtrair</option>
+    </select><br><br>
+
+    <input type="submit" name="Resultado" onclick="calcular()"><br><br>
+
+    <script src="principal.js"></script>
+
+</body>
+</html>
