@@ -3,8 +3,8 @@
 function calcular() {
 
     // Aqui se recebem valores a partir do front-end para serem usados na funcao
-    var numero1 = document.getElementById("idNumero1").value;
-    var numero2 = document.getElementById("idNumero2").value;
+    var numero1 = Number(document.getElementById("idNumero1").value);
+    var numero2 = Number(document.getElementById("idNumero2").value);
     var operacao = document.getElementById("operacao").value;
     var resultado = 0;
 
